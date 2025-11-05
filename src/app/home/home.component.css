@@ -1,0 +1,54 @@
+.landingImg {
+  animation: rot 10s linear infinite; /* slower rotation */
+  transition: 0.5s;
+}
+
+.landingImg:hover {
+  animation-play-state: paused; /* stop rotation on hover */
+}
+
+@keyframes rot {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.custom-btn {
+  background-color: #49ae61; /* light green */
+  color: #fff;              /* white text */
+  border: none;
+  transition: 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #218838; /* darker green on hover */
+  color: #fff;
+}
+.product-card {
+  box-shadow: 0 4px 15px rgba(0, 75, 200, 0.5);
+  
+  padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px; /* space below each card */
+   
+ 
+}
+
+.product-card img {
+  max-height: 250px; /* smaller image */
+  object-fit: cover;
+  
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 75, 200, 0.7);
+}
+
+/* Optional: add spacing between columns */
+.row.mt-4 > .col-md-3 {
+  padding-left: 10px;
+  padding-right: 10px;
+}

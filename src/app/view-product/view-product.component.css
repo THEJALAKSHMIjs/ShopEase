@@ -1,0 +1,73 @@
+/* Headings */
+h2 {
+  color: rgb(7, 45, 116);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: rgb(7, 45, 116);
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: rgb(5, 35, 90);
+}
+
+.btn-outline-primary {
+  border: 2px solid rgb(7, 45, 116);
+  color: rgb(7, 45, 116);
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: rgb(7, 45, 116);
+  color: #fff;
+}
+
+/* Product Image */
+.product-image {
+  width: 80%;
+  max-height: 320px;
+  object-fit: contain;
+  border-radius: 10px;
+  /* Removed thick border, added blue box-shadow */
+  box-shadow: 0 4px 15px rgba(7, 45, 116, 0.5);
+  transition: all 0.3s ease;
+}
+
+.product-image:hover {
+  transform: scale(1.03);
+}
+
+/* Card Styling */
+.card {
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Back link */
+a.text-decoration-none {
+  color: rgb(7, 45, 116);
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+a.text-decoration-none:hover {
+  color: rgb(5, 35, 90);
+  text-decoration: underline;
+}
+
+/* General Image Styling */
+img {
+  border-radius: 10px;
+}
